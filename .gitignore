@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# DSSAT job outputs (generated at runtime)
+_jobs/
+*.OUT
+*.LST
+LUN.LST
+ERROR.OUT
+WARNING.OUT
+
+# DSSAT batch/experiment files (generated at runtime)
+*.MZX
+*.WHX
+*.RIX
+*.SBX
+*.BAX
+*.PTX
+*.SGX
+DSSBatch.v48
+
+# OS
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
